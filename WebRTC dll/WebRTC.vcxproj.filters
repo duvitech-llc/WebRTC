@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="WebRTC.cpp" />
+    <ClCompile Include="..\WebRTC C Sample\Microstack\ILibAsyncSocket.c">
+      <Filter>Microstack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebRTC C Sample\Microstack\ILibAsyncUDPSocket.c">
+      <Filter>Microstack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebRTC C Sample\Microstack\ILibParsers.c">
+      <Filter>Microstack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebRTC C Sample\Microstack\ILibWebRTC.c">
+      <Filter>Microstack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebRTC C Sample\Microstack\ILibWrapperWebRTC.c">
+      <Filter>Microstack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebRTC C Sample\Microstack\ILibWebServer.c">
+      <Filter>Microstack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebRTC C Sample\Microstack\ILibAsyncServerSocket.c">
+      <Filter>Microstack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebRTC C Sample\Microstack\ILibWebClient.c">
+      <Filter>Microstack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebRTC C Sample\Microstack\ILibRemoteLogging.c">
+      <Filter>Microstack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebRTC C Sample\core\utils.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\WebRTC C Sample\Microstack\ILibAsyncSocket.h">
+      <Filter>Microstack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebRTC C Sample\Microstack\ILibAsyncUDPSocket.h">
+      <Filter>Microstack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebRTC C Sample\Microstack\ILibParsers.h">
+      <Filter>Microstack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebRTC C Sample\Microstack\ILibWebRTC.h">
+      <Filter>Microstack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebRTC C Sample\Microstack\ILibWrapperWebRTC.h">
+      <Filter>Microstack</Filter>
+    </ClInclude>
+    <ClInclude Include="WebRTC.h" />
+    <ClInclude Include="..\WebRTC C Sample\core\utils.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebRTC C Sample\openssl\include\openssl\ssl.h">
+      <Filter>OpenSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebRTC C Sample\Microstack\ILibWebServer.h">
+      <Filter>Microstack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebRTC C Sample\Microstack\ILibAsyncServerSocket.h">
+      <Filter>Microstack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebRTC C Sample\Microstack\ILibWebClient.h">
+      <Filter>Microstack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebRTC C Sample\Microstack\ILibRemoteLogging.h">
+      <Filter>Microstack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Microstack">
+      <UniqueIdentifier>{6a592a1b-34c3-4c4c-8bd1-72082faa84d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{481014fb-4e91-4ae7-8f41-0a1f05dad9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenSSL">
+      <UniqueIdentifier>{fffa64ca-b3bb-4094-9fd2-e288e3258d00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WebRTC.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+This folder contains parts of OpenSSL. You can put the entire OpenSSL package here, but for Windows compile we use a few static libs so we put just these here with the headers. The rest of the package is open source under Apache 2.0, but the OpenSSL folder is under a different license. Go to http://openssl.org for more information.
